@@ -34,7 +34,7 @@ public class AnimatedItem_Patches {
 
     public static void Load() {
 
-        string filePath = Path.Combine(Paths.PluginPath, "FreeThinkers\\audio\\shanty2.mp3");
+        string filePath = Path.Combine(Paths.PluginPath, "FreeThinkers\\shanty2.mp3");
         SharedCoroutineStarter.StartCoroutine(LoadAudioClip(filePath));
 
     }
